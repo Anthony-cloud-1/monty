@@ -7,6 +7,7 @@ glob_t glob = {NULL, NULL, NULL, 0};
  * @argv: Monty file location
  * Return: 0 on success
  */
+int main(int argc, char *argv[]);
 int main(int argc, char *argv[])
 {
 	char *line_content;

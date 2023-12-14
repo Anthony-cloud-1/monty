@@ -44,10 +44,10 @@ typedef struct instruction_s
 
 
 /**
- * struct context_s - holds relevant progam information
+ * struct glob_s - holds relevant progam information
  * @arg: ptr to string which holds argument. dd.
  * @file: pointer to monty file
- * @content: ptr to string containing the line content
+ * @cont: ptr to string containing the line content
  * @lifi: flag to indicate change btn. stack & queue
  * ... whether an operation should be performed in stack-like
  * or queue-like manner
@@ -69,7 +69,7 @@ void _free_stack(stack_t *head);
 void _addqueue(stack_t **hdl, int n);
 
 void _push(stack_t **head, unsigned int linum);
-void _pall(stack_t ** head, unsigned int linum);
+void _pall(stack_t **head, unsigned int linum);
 void _queue(stack_t **, unsigned int);
 void _pint(stack_t **hdl, unsigned int linum);
 void _pop(stack_t **hdl, unsigned int linum);
