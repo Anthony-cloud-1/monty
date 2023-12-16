@@ -70,7 +70,7 @@ void _addqueue(stack_t **hdl, int n);
 
 void _push(stack_t **head, unsigned int linum);
 void _pall(stack_t **head, unsigned int linum);
-void _queue(stack_t **, unsigned int);
+void _queue(stack_t **hdl, unsigned int linum);
 void _pint(stack_t **hdl, unsigned int linum);
 void _pop(stack_t **hdl, unsigned int linum);
 void _swap(stack_t **hdl, unsigned int linum);
@@ -82,5 +82,5 @@ void _sub(stack_t **hdl, unsigned int linum);
 void _div(stack_t **hdl, unsigned int linum);
 void _mul(stack_t **hdl, unsigned int linum);
 void _mod(stack_t **hdl, unsigned int linum);
-
+void _stack(stack_t **hdl, unsigned int linum);
 #endif  /*MONTY_HEAD*/

@@ -19,6 +19,8 @@ int _execute(char *cont, stack_t **hdl, unsigned int linum, FILE *file)
 				{"div", _div},
 				{"mul", _mul},
 				{"mod", _mod},
+				{"stack", _stack},
+				{"queue", _queue},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;
